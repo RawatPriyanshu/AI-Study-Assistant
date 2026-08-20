@@ -11,7 +11,7 @@ const LandingPage = () => {
               <p className="!text-[var(--bg-tertiary-color)] !font-extrabold uppercase">
                 Smarter Studying. Powered by AI
               </p>
-              <h1 className="text-[--text-primary-color]">
+              <h1 className="text-[--text-primary-color] font-bricol-bold">
                 Turn Your Notes <br /> Into Deeper <br />
                 <span className="text-[var(--bg-tertiary-color)]">
                   Understanding

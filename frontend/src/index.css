@@ -18,7 +18,6 @@
   --font-bricol-extra-bold: "bricol-extraBold";
   --font-bricol-regular: "bricol-regular";
   --font-bricol-light: "bricol-light";
-
   --font-neu-semibold: "neu-semibold";
   --font-neu-black: "neu-black";
 }
@@ -30,9 +29,15 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
+/* @font-face {
   font-family: "bricol-bold";
   src: url("./assets/fonts/BricolageGrotesque48pt-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "bricol-bold";
+  src: url("./assets/fonts/BricolageGrotesque48pt-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -78,17 +83,17 @@ h1 {
 p {
   color: var(--text-secondary-color);
   font-weight: 500;
+  font-family: "bricol-regular";
 }
 
 button {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
-  /* border: none; */
+  font-family: "bricol-regular";
 }
 
 button:hover {
   transform: translateY(-2px);
-  /* box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2); */
 }
 
 button:active {
@@ -96,7 +101,7 @@ button:active {
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
 }
 .purple-button:hover {
-  background-color: #332264;
+  background-color: #2e1f5a;
 }
 .purple-button:active {
   background-color: #2a1c52;

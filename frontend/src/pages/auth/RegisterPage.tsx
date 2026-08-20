@@ -1,4 +1,5 @@
-import {Link} from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 
 const RegisterPage = () => {
   return (
@@ -73,7 +74,9 @@ const RegisterPage = () => {
         </form>
         <div className="flex mt-10 items-center">
           <span className="h-[1px] w-full bg-gray-300 inline-block"></span>
-          <span className="text-gray-500 mx-6 inline-block w-full">Or continue with</span>
+          <span className="text-gray-500 mx-6 inline-block w-full">
+            Or continue with
+          </span>
           <span className="h-[1px] w-full bg-gray-300 inline-block"></span>
         </div>
         <div className="mt-10">
@@ -101,7 +104,9 @@ const RegisterPage = () => {
                 d="M12 6.38c1.43 0 2.71.49 3.72 1.45l2.79-2.79C16.84 3.46 14.63 2.5 12 2.5a9.75 9.75 0 0 0-8.7 5.37l3.24 2.53C7.31 8.1 9.46 6.38 12 6.38z"
               />
             </svg>
-            <span className="text-[var(--text-primary-color)]">Sign up with Google</span>
+            <span className="text-[var(--text-primary-color)]">
+              Sign up with Google
+            </span>
           </button>
         </div>
       </div>
