@@ -8,40 +8,57 @@
   --text-secondary-color: #626569;
 }
 
+@theme {
+  --font-bricol-med: "bricol-med";
+  --font-bricol-bold: "bricol-bold";
+  --font-bricol-extra-bold: "bricol-extraBold";
+  --font-bricol-regular: "bricol-regular";
+  --font-bricol-light: "bricol-light";
+
+  --font-neu-semibold: "neu-semibold";
+  --font-neu-black: "neu-black";
+}
+
 @font-face {
-  font-family: "MyCustomFont";
+  font-family: "bricol-med";
   src: url("./assets/fonts/BricolageGrotesque10pt-Medium.otf")
     format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "MyCustomFont";
+  font-family: "bricol-bold";
   src: url("./assets/fonts/BricolageGrotesque48pt-Bold.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "MyCustomFont";
+  font-family: "bricol-extraBold";
+  src: url("./assets/fonts/BricolageGrotesque48ptCondensed-ExtraBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "neu-semibold";
   src: url("./assets/fonts/neuemetananext-semibold.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "MyCustomFont";
+  font-family: "neu-black";
   src: url("./assets/fonts/neuemetananextoutline-black.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "MyCustomFont";
+  font-family: "bricol-regular";
   src: url("./assets/fonts/BricolageGrotesque10pt-Regular.otf")
     format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "MyCustomFont";
+  font-family: "bricol-light";
   src: url("./assets/fonts/BricolageGrotesque10pt-Light.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
