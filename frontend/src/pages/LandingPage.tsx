@@ -6,8 +6,8 @@ const LandingPage = () => {
     <div>
       <section className="hero-section">
         <div className="container">
-          <div className="hero-wrap w-full flex flex-row items-center">
-            <div className="hero-content max-w-112.5 w-full flex flex-col gap-6.5">
+          <div className="hero-wrap w-full flex flex-row flex-wrap items-center justify-between">
+            <div className="hero-content max-w-112.5 lg:w-full w-full flex flex-col gap-6.5">
               <p className="!text-[var(--bg-tertiary-color)] !font-extrabold uppercase">
                 Smarter Studying. Powered by AI
               </p>
@@ -34,8 +34,8 @@ const LandingPage = () => {
                 </button>
               </div>
             </div>
-            <div className="hero-banner relative">
-              <div className="hero-banner-cards rounded-2xl flex flex-col max-w-75 w-full shadow-2xl py-4 bg-white">
+            <div className="hero-banner w-full max-w-180 lg:max-w-150 relative p-10">
+              <div className="hero-banner-cards rounded-2xl flex flex-col max-w-75 w-full shadow-[0_-12px_35px_rgba(0,0,0,0.12),0_12px_30px_rgba(0,0,0,0.10)] py-4 bg-white">
                 <div className="banner-heading flex flex-row justify-between items-center w-full pb-3.5 pl-6 pr-14 pr- border-b border-[#dddddd]">
                   <p className="text-m">My Notes</p>
                   <span className="material-symbols-outlined cursor-pointer">
@@ -81,7 +81,7 @@ const LandingPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="hero-banner-cards absolute top-10 left-70 rounded-2xl flex flex-col max-w-75 w-full shadow-2xl pt-5 pb-5 bg-white p-6">
+              <div className="hero-banner-cards absolute top-20 left-80 rounded-2xl flex flex-col max-w-75 w-full shadow-[0_-12px_35px_rgba(0,0,0,0.12),0_12px_30px_rgba(0,0,0,0.10)] pt-5 pb-5 bg-white p-6">
                 <div className="banner-heading flex flex-row justify-between items-center pb-5">
                   <h2 className="text-[20px] font-bold">Ai Summary</h2>
                   <span className="material-symbols-outlined">bookmark</span>
@@ -110,7 +110,7 @@ const LandingPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="hero-banner-cards absolute bottom-5 left-80 rotate-355 rounded-2xl border-b-5 border-b-[var(--bg-tertiary-color)] flex flex-col max-w-75 w-full shadow-[0_-12px_35px_rgba(0,0,0,0.12),0_12px_30px_rgba(0,0,0,0.10)] pt-5 pb-7 bg-white p-6">
+              <div className="hero-banner-cards absolute bottom-15 left-90 rotate-355 rounded-2xl border-b-5 border-b-[var(--bg-tertiary-color)] flex flex-col max-w-75 w-full shadow-[0_-12px_35px_rgba(0,0,0,0.12),0_12px_30px_rgba(0,0,0,0.10)] pt-5 pb-7 bg-white p-6">
                 <div className="para">
                   <ul>
                     <li className="text-2xl font-bricol-bold">
