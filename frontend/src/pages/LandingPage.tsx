@@ -7,7 +7,7 @@ const LandingPage = () => {
       <section className="hero-section">
         <div className="container">
           <div className="hero-wrap w-full flex flex-row items-center justify-center">
-            <div className="hero-content max-w-[450px] w-full flex flex-col gap-[25px]">
+            <div className="hero-content max-w-112.5 w-full flex flex-col gap-6.5">
               <p className="!text-[var(--bg-tertiary-color)] !font-extrabold uppercase">
                 Smarter Studying. Powered by AI
               </p>
@@ -23,27 +23,27 @@ const LandingPage = () => {
                 flash cards -- all in one intlligent workspace.
               </p>
               <div className="hero-btns flex flex-row gap-2.5">
-                <button className="flex flex-row gap-2.5 rounded-lg py-[14px] px-[20px] cursor-pointer bg-[var(--bg-tertiary-color)] text-white ">
+                <button className="purple-button flex flex-row gap-2.5 rounded-lg py-3.5 px-5 cursor-pointer bg-[var(--bg-tertiary-color)] text-white ">
                   Start Studying Free
                   <span className="material-symbols-outlined">
                     trending_flat
                   </span>
                 </button>
-                <button className="border rounded-lg py-[14px] px-[20px] cursor-pointer">
+                <button className="white-button border rounded-lg py-3.5 px-5 cursor-pointer">
                   See How It Works
                 </button>
               </div>
             </div>
             <div className="hero-banner">
-              <div className="hero-banner-cards flex flex-col max-w-[300px]">
-                <div className="banner-heading flex flex-row justify-between w-full pt-[20px] pb-[15px] px-[15px] border-b border-[#dddddd]">
+              <div className="hero-banner-cards flex flex-col max-w-75 shadow-2xl py-4">
+                <div className="banner-heading flex flex-row justify-between items-center w-full pb-3.5 pl-6 pr-14 pr- border-b border-[#dddddd]">
                   <p>My Notes</p>
-                  <span className="material-symbols-outlined">
+                  <span className="material-symbols-outlined cursor-pointer">
                     trending_flat
                   </span>
                 </div>
-                <div className="hero-notes-content flex flex-col gap-[25px]">
-                  <div className="para flex flex-col gap-[20px] pt-[10px] px-[15px]">
+                <div className="hero-notes-content flex flex-col gap-6">
+                  <div className="para flex flex-col gap-4 pt-2.5  pl-6 pr-14">
                     <h2 className="text-[20px] font-bold">
                       Javascript Closures
                     </h2>
@@ -53,7 +53,7 @@ const LandingPage = () => {
                       (the laxical envtioment).
                     </p>
                   </div>
-                  <div className="para px-[15px]">
+                  <div className="para pl-6 pr-14">
                     <h3 className="text-[15px] font-bold">Key Points</h3>
                     <ul className="list-disc pl-[20px] pt-[15px]">
                       <li>
@@ -69,9 +69,13 @@ const LandingPage = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className="hero-banner-card-tags px-[15px] ">
-                    <span>Javascript</span>
-                    <span>Funcitons</span>
+                  <div className="hero-banner-card-tags flex flex-row justify-between flex-wrap pl-6 pr-14 ">
+                    <span className="bg-[#dbdbdb91] px-5 py-1 rounded-4xl">
+                      Javascript
+                    </span>
+                    <span className="bg-[#dbdbdb91] px-5 py-1 rounded-4xl">
+                      Funcitons
+                    </span>
                   </div>
                 </div>
               </div>
