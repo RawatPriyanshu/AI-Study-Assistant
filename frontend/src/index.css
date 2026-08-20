@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+:root {
+    --bg-primary-color: #F5F6F7;
+    --bg-secondary-color: #C1C4C8;
+    --bg-tertiary-color: #3F2B7B;
+    --text-primary-color: #2B2E33;
+    --text-secondary-color: #626569;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 120%;
+}
+
+p{
+    color: var(--text-secondary-color);
+    font-weight: 500;
+}
