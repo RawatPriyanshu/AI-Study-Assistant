@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Lock, Mail, User } from "lucide-react";
 
 const RegisterPage = () => {
   return (
@@ -28,30 +29,39 @@ const RegisterPage = () => {
             >
               Full Name
             </label>
+            <div className="relative">
+              <User className="absolute top-3 left-3 text-black" size={20}/>
             <input
-              className="border border-gray-300 px-4 py-2 rounded-md outline-none focus:border-[var(--bg-tertiary-color)]"
+              className="border w-full border-gray-300 pl-10 pr-4 py-2 rounded-md outline-none focus:border-[var(--bg-tertiary-color)]"
               type="text"
               name="fullname"
               placeholder="John Smith"
             />
+            </div>
           </div>
           <div className="flex flex-col">
             <label htmlFor="email">Email</label>
+            <div className="relative">
+              <Mail className="absolute top-3 left-3 text-black" size={20}/>
             <input
-              className="border border-gray-300 px-4 py-2 rounded-md outline-none focus:border-[var(--bg-tertiary-color)]"
+              className="border w-full border-gray-300 pl-10 pr-4 py-2 rounded-md outline-none focus:border-[var(--bg-tertiary-color)]"
               type="email"
               name="email"
               placeholder="john@example.com"
             />
+            </div>
           </div>
           <div className="flex flex-col">
             <label htmlFor="password">Password</label>
+            <div className="relative">
+              <Lock className="absolute top-3 left-3 text-black" size={20}/>
             <input
-              className="border border-gray-300 px-4 py-2 rounded-md outline-none focus:border-[var(--bg-tertiary-color)]"
-              type="text"
+              className="border w-full border-gray-300 pl-10 pr-4 py-2 rounded-md outline-none focus:border-[var(--bg-tertiary-color)]"
+              type="password"
               name="password"
               placeholder="Password"
             />
+            </div>
             <p className="text-end text-blue-600 hover:underline">
               <Link to="/forgot-password">Forgot password ?</Link>
             </p>
@@ -62,24 +72,15 @@ const RegisterPage = () => {
           >
             Sign Up
           </button>
-          {/* <div className="flex flex-col">
-            <label htmlFor="confirmpass">Confirm Password</label>
-            <input
-              className="border border-gray-200 px-4 py-2 rounded-md"
-              type="text"
-              name="confirmpass"
-              placeholder="Confirm Password"
-            />
-          </div> */}
         </form>
-        <div className="flex mt-10 items-center">
-          <span className="h-[1px] w-full bg-gray-300 inline-block"></span>
-          <span className="text-gray-500 mx-6 inline-block w-full">
+        <div className="flex mt-10 items-center w-full">
+          <span className="h-px bg-gray-300 flex-1"></span>
+          <span className="text-gray-500 px-4 whitespace-nowrap">
             Or continue with
           </span>
-          <span className="h-[1px] w-full bg-gray-300 inline-block"></span>
+          <span className="h-px bg-gray-300 flex-1"></span>
         </div>
-        <div className="mt-10">
+        <div className="mt-10"> 
           <button className="w-full bg-gray-200 flex justify-center items-center py-2.5 rounded-md gap-2 cursor-pointer active:scale-95 transition-transform duration-200">
             <svg
               width="20"
